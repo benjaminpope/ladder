@@ -6,6 +6,10 @@ If you want to keep up with the latest research, a good place to start is [astro
 
 They also have more general guides: to (American!) [graduate school](https://astrobites.org/guides/astrobites-graduate-school-guide/), and to [astrophyics software](https://astrobites.org/guides/guide-to-astrophysical-software/).
 
+## astrobetter
+
+There is also a great page of astronomy tutorials and general advice at [astrobetter](https://www.astrobetter.com/), covering everything from software to jobs. 
+
 ## Statistics
 
 We will be using a lot of stats in astronomy! 

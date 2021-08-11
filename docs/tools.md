@@ -12,6 +12,10 @@ There is a lot of cool functionality here! You can search by first author, other
 
 The search engine for stars, [SIMBAD](http://simbad.u-strasbg.fr/simbad/), is your friend. Nearly all stars have many identifiers in many different catalogs - how do you know which is which? Search it in SIMBAD, by name, coordinates, or whatever, and you can bring up lots of metadata (including publications that refer to that star).
 
+## VizieR
+
+From the same team that brought you SIMBAD comes [VizieR](https://vizier.u-strasbg.fr/viz-bin/VizieR), a tool for manipulating astronomical catalogues and databases. Want to cross-match two surveys? VizieR provides painless ways to do this! 
+
 ## MAST
 
 The Mikulski Archive for Space Telescopes archives all NASA space telescope data. You can search all NASA data on MAST using [this web interface](https://mast.stsci.edu/portal/Mashup/Clients/Mast/Portal.html).
