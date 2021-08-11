@@ -32,7 +32,7 @@ These all have subsidiaries including Letters for short high impact papers, or S
 
 Prestige journals like [Nature](https://www.nature.com/), [Nature Astronomy](https://www.nature.com/natastron/) and [Science](https://www.sciencemag.org/) do have higher-profile results, correspondingly high rejection rates, and sometimes the results can be too good to be true! 
 
-There are also regional journals, often dedicated to observatories, such as [Publications of the Astronomical Society of Australia](https://www.cambridge.org/core/journals/publications-of-the-astronomical-society-of-australia) or PASA, and an American journal [Publications of the Astronomical Society of the Pacific](https://iopscience.iop.org/journal/1538-3873) with a big emphasis on methods.
+There are also regional journals, often dedicated to observatories, such as [Publications of the Astronomical Society of Australia](https://www.cambridge.org/core/journals/publications-of-the-astronomical-society-of-australia) or PASA, and an American journal [Publications of the Astronomical Society of the Pacific](https://iopscience.iop.org/journal/1538-3873) or PASP with a big emphasis on methods.
 
 We will be doing a lot of software development, and the [Journal of Open Source Software](https://joss.theoj.org/) is a great place to submit short papers documenting the cool open source software tools we make.
 
