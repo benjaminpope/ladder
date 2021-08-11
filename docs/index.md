@@ -18,4 +18,4 @@ This is, insofar as is possible, a non-hierarchical group. I'm not going to tell
 
 ## License
 
-We invite anyone interested to use and modify these startup docs under a MIT license.
+We invite anyone interested to use and modify these startup docs under a MIT license. If you want to add anything, it would be great if you submit a pull request so we can update the page with new materials!
