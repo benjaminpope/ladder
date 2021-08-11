@@ -22,7 +22,13 @@ There are six subsections of astro-ph for different subject areas; three are dir
 
 The first point is you'll probably rarely read journals - you'll find papers through ADS or arXiv!
 
-Most astronomy papers are handled in one of three sets of journals, more by geographic origin of the researchers than anything else. The American Astronomical Society publish AAS journals in particular [The Astrophysical Journal](https://iopscience.iop.org/journal/0004-637X); the British Royal Astronomical Society publish [Monthly Notices](https://academic.oup.com/mnras) or MNRAS; and the European Southern Observatory have [Astronomy & Astrophysics](https://www.aanda.org/) or A&A. These all have subsidiaries including Letters for short high impact papers, or Supplements for big data releases, et cetera. I tend to publish in ApJ or sometimes MNRAS. All three have basically quite high acceptance rates; you're unlikey to get a decent paper rejected, but peer reviewers will rigorously ask for detail and revisions.
+Most astronomy papers are handled in one of three sets of journals, more by geographic origin of the researchers than anything else. 
+
+- The American Astronomical Society publish AAS journals such as [The Astrophysical Journal](https://iopscience.iop.org/journal/0004-637X); 
+- the British Royal Astronomical Society publish [Monthly Notices](https://academic.oup.com/mnras) or MNRAS; 
+- and the European Southern Observatory have [Astronomy & Astrophysics](https://www.aanda.org/) or A&A. 
+
+These all have subsidiaries including Letters for short high impact papers, or Supplements for big data releases, et cetera. I tend to publish in ApJ or sometimes MNRAS. All three have basically quite high acceptance rates; you're unlikey to get a decent paper rejected, but peer reviewers will rigorously ask for detail and revisions.
 
 Prestige journals like [Nature](https://www.nature.com/), [Nature Astronomy](https://www.nature.com/natastron/) and [Science](https://www.sciencemag.org/) do have higher-profile results, correspondingly high rejection rates, and sometimes the results can be too good to be true! 
 
