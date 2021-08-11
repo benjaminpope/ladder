@@ -11,6 +11,7 @@ All my code is version-controlled [github.com/benjaminpope](https://github.com/b
 ## Making Open-Source Software
 
 Christina Hedges (Ames) has a fantastic introduction to open-source software practices for astronomy, which I won't try to compete with:
+
 - [christinahedges.github.io/astronomy_workflow](https://christinahedges.github.io/astronomy_workflow/)
 
 ## Autodiff
