@@ -12,7 +12,11 @@ There is a lot of cool functionality here! You can search by first author, other
 
 For two decades now, nearly all physics and astronomy papers (and an increasing range of other sciences) have been uploaded to [arXiv](https://arxiv.org/), and for astronomy in particular, to the subsection of arXiv called [astrop-ph](https://arxiv.org/archive/astro-ph). They are all free to access, from anywhere you are, and typically linked to ADS pages with all the metadata you would ever want.
 
-There are six subsections of astro-ph for different subject areas; three are directly relevant to my research, and I usually check the new round of papers every weekday at 2pm Brisbane time for [astro-ph.EP - Earth and Planetary Astrophysics](https://arxiv.org/list/astro-ph.EP/recent), [astro-ph.IM - Instrumentation and Methods for Astrophysics](https://arxiv.org/list/astro-ph.IM/recent), and [astro-ph.SR - Solar and Stellar Astrophysics](https://arxiv.org/list/astro-ph.SR/recent). 
+There are six subsections of astro-ph for different subject areas; three are directly relevant to my research, and I usually check the new round of papers every weekday at 2pm Brisbane time for 
+
+- [astro-ph.EP - Earth and Planetary Astrophysics](https://arxiv.org/list/astro-ph.EP/recent), 
+- [astro-ph.IM - Instrumentation and Methods for Astrophysics](https://arxiv.org/list/astro-ph.IM/recent), and 
+- [astro-ph.SR - Solar and Stellar Astrophysics](https://arxiv.org/list/astro-ph.SR/recent). 
 
 ## Journals
 
