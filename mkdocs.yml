@@ -1,0 +1,25 @@
+site_name: startup materials for phd students
+nav:
+    - Home: index.md
+    - Astronomy Tools: tools.md
+    - Software Practices: software.md 
+    - Publishing in Astronomy: publishing.md
+    - Writing Papers: writing.md
+    - Recommended Reading: reading.md
+    - Values: values.md
+
+theme:
+  name: "material"
+repo_url: https://github.com/benjaminpope/startup
+plugins:
+  - search
+  - mkdocs-jupyter
+  - mkdocstrings:
+      default_handler: python
+      handlers:
+        python:
+          selection:
+            docstring_style: "numpy"
+          rendering:
+            show_source: false
+      custom_templates: templates
