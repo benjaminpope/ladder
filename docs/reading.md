@@ -13,6 +13,7 @@ We will be using a lot of stats in astronomy!
 ### General Statistics
 
 My favourite textbooks on statistics are 
+
 - [Information Theory, Inference and Learning Algorithms](http://www.inference.org.uk/itprnn/book.pdf), by Mackay, free online;
 - [Data Analysis: A Bayesian Tutorial](https://www.google.com.au/books/edition/Data_Analysis/lYMSDAAAQBAJ?hl=en) by Sivia, for which I have a hard copy I can lend you; and
 - [Bayesian Logical Data Analysis for the Physical Sciences](https://www.cambridge.org/core/books/bayesian-logical-data-analysis-for-the-physical-sciences/09E9A95DAE275F5B005676C71B542598) by Gregory, for which I also have a hard copy.
