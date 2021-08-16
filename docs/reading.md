@@ -27,6 +27,12 @@ There is a great series of tutorial papers by David Hogg and members of the NYC 
 - On MCMC: [Data analysis recipes: Using Markov Chain Monte Carlo](https://arxiv.org/abs/1710.06068), Hogg & Foreman-Mackey
 - On regularized fitting: [Fitting very flexible models: Linear regression with large numbers of parameters](https://arxiv.org/abs/2101.07256), Hogg & Villar
 - On Bayesian inference: [Data analysis recipes: Fitting a model to data](https://arxiv.org/abs/1008.4686), Hogg, Bovy, & Lang
+- On Probability theory: [Data analysis recipes: Probability calculus for inference](https://arxiv.org/abs/1205.4446), Hogg
+
+and other papers, like
+
+- [A Conceptual Introduction to Hamiltonian Monte Carlo](https://arxiv.org/abs/1701.02434), Betancourt
+
 
 ### Gaussian Processes
 
