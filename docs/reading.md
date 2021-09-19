@@ -33,12 +33,15 @@ and other papers, like
 
 - [A Conceptual Introduction to Hamiltonian Monte Carlo](https://arxiv.org/abs/1701.02434), Betancourt
 
-
 ### Gaussian Processes
 
 - The great textbook by Rasmussen & Williams is freely available as a PDF [online](http://www.gaussianprocess.org/gpml/chapters/RW.pdf).
 - Great lecture by Dan Foreman-Mackey: [speakerdeck.com/dfm/an-astronomers-introduction-to-gaussian-processes-v2](https://speakerdeck.com/dfm/an-astronomers-introduction-to-gaussian-processes-v2)
 - Introductory paper by Roberts et al 2012: [ADS link](https://ui.adsabs.harvard.edu/abs/2012RSPTA.37110550R/abstract)
+
+### Miscellaneous Astronomy
+
+- Natasha Hurley-Walker's [paper](https://www.nature.com/articles/s41567-021-01255-7) on the origin and reasoning behind the Jansky unit. 
 
 ## ADS Libraries
 
