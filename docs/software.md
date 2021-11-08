@@ -21,5 +21,6 @@ We will rely extensively on automatic differentiation, or autodiff. Like magic, 
 Here are some great tutorials:
 
 - [The Google Jax Autodiff Cookbook](https://jax.readthedocs.io/en/latest/notebooks/autodiff_cookbook.html)
+- [Get Started with Jax](https://github.com/gordicaleksa/get-started-with-JAX)
 - In the context of Dan Foreman-Mackey's code exoplanet: [link](https://docs.exoplanet.codes/en/latest/tutorials/autodiff/)
 - This great explainer of autodiff by Robert Lange: [link](https://towardsdatascience.com/forward-mode-automatic-differentiation-dual-numbers-8f47351064bf)
