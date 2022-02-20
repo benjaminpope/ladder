@@ -14,7 +14,7 @@
     
     
       
-        <title>Astronomy Tools - UQ PHYS3080 Distance Ladder Project</title>
+        <title>Matlab Scripts - UQ PHYS3080 Distance Ladder Project</title>
       
     
     
@@ -63,7 +63,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#astronomy-tools" class="md-skip">
+        <a href="#matlabmd" class="md-skip">
           Skip to content
         </a>
       
@@ -93,7 +93,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Astronomy Tools
+              Matlab Scripts
             
           </span>
         </div>
@@ -231,11 +231,51 @@
 
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="../matlab/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Matlab Scripts
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         Matlab Scripts
       </a>
+      
+        
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#loading-data" class="md-nav__link">
+    Loading data
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -266,36 +306,8 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#astrophysics-data-system-ads" class="md-nav__link">
-    Astrophysics Data System (ADS)
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#simbad" class="md-nav__link">
-    SIMBAD
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#vizier" class="md-nav__link">
-    VizieR
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#mast" class="md-nav__link">
-    MAST
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#web-tess-viewing-tool" class="md-nav__link">
-    Web Tess Viewing Tool
+  <a href="#loading-data" class="md-nav__link">
+    Loading data
   </a>
   
 </li>
@@ -312,24 +324,200 @@
             <article class="md-content__inner md-typeset">
               
                 
-                  <a href="https://github.com/benjaminpope/ladder/edit/master/docs/tools.md" title="Edit this page" class="md-content__button md-icon">
+                  <a href="https://github.com/benjaminpope/ladder/edit/master/docs/matlab.md" title="Edit this page" class="md-content__button md-icon">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
                   </a>
                 
                 
-                <h1 id="astronomy-tools">Astronomy Tools</h1>
-<p>Here are some essential web tools for astronomy.</p>
-<h2 id="astrophysics-data-system-ads">Astrophysics Data System (ADS)</h2>
-<p>You can find almost any publication in astronomy using the powerful search engine for papers <a href="https://ui.adsabs.harvard.edu/">ADS</a>, the Astrophysics Data System. </p>
-<p>There is a lot of cool functionality here! You can search by first author, other authors, year, words in the title or abstract - but also remember to create libraries (eg <a href="https://ui.adsabs.harvard.edu/user/libraries/QX_wxPK-R1OegPl7lkqqzA">this one</a> of all my papers) to help organize things. The number one use case is finding papers - and the number two is creating BibTeX citation refs to go in your papers.</p>
-<h2 id="simbad">SIMBAD</h2>
-<p>The search engine for stars, <a href="http://simbad.u-strasbg.fr/simbad/">SIMBAD</a>, is your friend. Nearly all stars have many identifiers in many different catalogs - how do you know which is which? Search it in SIMBAD, by name, coordinates, or whatever, and you can bring up lots of metadata (including publications that refer to that star).</p>
-<h2 id="vizier">VizieR</h2>
-<p>From the same team that brought you SIMBAD comes <a href="https://vizier.u-strasbg.fr/viz-bin/VizieR">VizieR</a>, a tool for manipulating astronomical catalogues and databases. Want to cross-match two surveys? VizieR provides painless ways to do this! </p>
-<h2 id="mast">MAST</h2>
-<p>The Mikulski Archive for Space Telescopes archives all NASA space telescope data. You can search all NASA data on MAST using <a href="https://mast.stsci.edu/portal/Mashup/Clients/Mast/Portal.html">this web interface</a>.</p>
-<h2 id="web-tess-viewing-tool">Web Tess Viewing Tool</h2>
-<p>The <a href="https://heasarc.gsfc.nasa.gov/cgi-bin/tess/webtess/wtv.py">Web Tess Viewing Tool</a> a great way to find out if any particular star is in TESS - and if so, when?  </p>
+                <h1 id="matlabmd">matlab.md</h1>
+<p>Most professional data scientists, physicists and astronomers use the open-source Python as their main interpreted language, with substantial minorities using open-source languages <a href="https://www.r-project.org/">R</a> <a href="https://julialang.org/">Julia</a> and the closed-source <a href="https://www.l3harrisgeospatial.com/Software-Technology/IDL">IDL</a>. </p>
+<p>It has been common for universities to teach students Matlab, but this is increasingly uncommon in physics outside of engineering contexts, and requires expensive closed-source licenses. I personally don't recommend you practise Matlab unless you are going mainly into engineering, but if you are already familiar with it, it is well suited to this project. Here are some resources for using Matlab for the Distance Ladder project.</p>
+<h2 id="loading-data">Loading data</h2>
+<p>Script to read the data given in the <code>allpoints</code> and <code>fuzzypoints</code> data files and convert them into <code>.csv</code> files according to the camera location.</p>
+<p>Files need to be saved as <code>allpoint.txt</code> and <code>allfuzzy.txt</code> in the same folder directory as this script is saved in.
+Thanks for Kyle Clunies-Ross for writing this script!</p>
+<pre><code>clc;
+clear all;
+
+%% Importing data
+filename1 = 'allpoint.txt';
+filename2 = 'allfuzzy.txt';
+
+startRow = 2;
+endRow = inf;
+
+%creating file IDs
+fileID1 = fopen(filename1,'r');
+fileID2 = fopen(filename2,'r');
+%set up the formatting for the arrays
+formatSpec = '%5C%11f%8f%9f%9f%9f%8f%f%[^\n\r]';
+
+%Making an array from the files
+dataArray1 = textscan(fileID1, formatSpec, endRow(1)-startRow(1)+1, 'Delimiter', '', 'WhiteSpace', '', 'TextType', 'string', 'EmptyValue', NaN, 'HeaderLines', startRow(1)-1, 'ReturnOnError', false, 'EndOfLine', '\r\n');
+dataArray2 = textscan(fileID2, formatSpec, endRow(1)-startRow(1)+1, 'Delimiter', '', 'WhiteSpace', '', 'TextType', 'string', 'EmptyValue', NaN, 'HeaderLines', startRow(1)-1, 'ReturnOnError', false, 'EndOfLine', '\r\n');
+for block=2:length(startRow)
+    frewind(fileID1);
+    frewind(fileID2);
+    dataArrayBlock1 = textscan(fileID1, formatSpec, endRow(block)-startRow(block)+1, 'Delimiter', '', 'WhiteSpace', '', 'TextType', 'string', 'EmptyValue', NaN, 'HeaderLines', startRow(block)-1, 'ReturnOnError', false, 'EndOfLine', '\r\n');
+    dataArrayBlock2 = textscan(fileID2, formatSpec, endRow(block)-startRow(block)+1, 'Delimiter', '', 'WhiteSpace', '', 'TextType', 'string', 'EmptyValue', NaN, 'HeaderLines', startRow(block)-1, 'ReturnOnError', false, 'EndOfLine', '\r\n');
+    for col=1:length(dataArray1)
+        dataArray1{col} = [dataArray1{col};dataArrayBlock1{col}];
+    end
+    for col=1:length(dataArray2)
+        dataArray2{col} = [dataArray2{col};dataArrayBlock2{col}];
+    end
+end
+
+%Close files
+fclose(fileID1);
+fclose(fileID2);
+
+%set up tables from the arrays
+allpointData = table(dataArray1{1:end-1}, 'VariableNames', {'Cam','X','Y','BlueFlx','GreenFlx','RedFlx','Par','RV'});
+allfuzzyData = table(dataArray2{1:end-1}, 'VariableNames', {'Cam','X','Y','BlueFlx','GreenFlx','RedFlx','Size','RV'});
+
+%% Putting the data from the tables into individual matrices
+Name1 = [&quot;Cam&quot;,&quot;X&quot;,&quot;Y&quot;,&quot;BlueFlx&quot;,&quot;GreenFlx&quot;,&quot;RedFlx&quot;,&quot;Par&quot;,&quot;RV&quot;]; %writing headers
+for i = 1:size(allpointData,2)
+   Back1(1,i) = Name1(1,i);
+   Front1(1,i) = Name1(1,i);
+   Left1(1,i) = Name1(1,i);
+   Right1(1,i) = Name1(1,i);
+   Up1(1,i) = Name1(1,i);
+   Down1(1,i) = Name1(1,i);
+end
+
+Name2 = [&quot;Cam&quot;,&quot;X&quot;,&quot;Y&quot;,&quot;BlueFlx&quot;,&quot;GreenFlx&quot;,&quot;RedFlx&quot;,&quot;Size&quot;,&quot;RV&quot;]; %writing headers
+for i = 1:size(allpointData,2)
+   Back2(1,i) = Name2(1,i);
+   Front2(1,i) = Name2(1,i);
+   Left2(1,i) = Name2(1,i);
+   Right2(1,i) = Name2(1,i);
+   Up2(1,i) = Name2(1,i);
+   Down2(1,i) = Name2(1,i);
+end
+
+a = 1; %These variables used to index the matrices
+b = 1;
+c = 1;
+d = 1;
+e = 1;
+f = 1;
+
+%Writing these values to matrices
+for i = 1:size(allpointData,1)
+    if allpointData{i,1} == 'Back'
+        a = a + 1;
+        for n = 1:size(allpointData,2)
+            Back1(a,n) = string(allpointData{i,n});
+        end
+    elseif allpointData{i,1} == 'Front'
+        b = b + 1;
+        for n = 1:size(allpointData,2)
+            Front1(b,n) = string(allpointData{i,n});
+        end  
+    elseif allpointData{i,1} == 'Left'
+        c = c + 1;
+        for n = 1:size(allpointData,2)
+            Left1(c,n) = string(allpointData{i,n});
+        end
+    elseif allpointData{i,1} == 'Right'
+        d = d + 1;
+        for n = 1:size(allpointData,2)
+            Right1(d,n) = string(allpointData{i,n});
+        end
+    elseif allpointData{i,1} == 'Up'
+        e = e + 1;
+        for n = 1:size(allpointData,2)
+            Up1(e,n) = string(allpointData{i,n});
+        end
+    elseif allpointData{i,1} == 'Down'
+        f = f + 1;
+        for n = 1:size(allpointData,2)
+            Down1(f,n) = string(allpointData{i,n});
+        end
+    end
+end
+
+a = 1; %Resetting these variables
+b = 1;
+c = 1;
+d = 1;
+e = 1;
+f = 1;
+
+for i = 1:size(allfuzzyData,1)
+    if allfuzzyData{i,1} == 'Back'
+        a = a + 1;
+        for n = 1:size(allfuzzyData,2)
+            Back2(a,n) = string(allfuzzyData{i,n});
+        end
+    elseif allfuzzyData{i,1} == 'Front'
+        b = b + 1;
+        for n = 1:size(allfuzzyData,2)
+            Front2(b,n) = string(allfuzzyData{i,n});
+        end  
+    elseif allfuzzyData{i,1} == 'Left'
+        c = c + 1;
+        for n = 1:size(allfuzzyData,2)
+            Left2(c,n) = string(allfuzzyData{i,n});
+        end
+    elseif allfuzzyData{i,1} == 'Right'
+        d = d + 1;
+        for n = 1:size(allfuzzyData,2)
+            Right2(d,n) = string(allfuzzyData{i,n});
+        end
+    elseif allfuzzyData{i,1} == 'Up'
+        e = e + 1;
+        for n = 1:size(allfuzzyData,2)
+            Up2(e,n) = string(allfuzzyData{i,n});
+        end
+    elseif allfuzzyData{i,1} == 'Down'
+        f = f + 1;
+        for n = 1:size(allfuzzyData,2)
+            Down2(f,n) = string(allfuzzyData{i,n});
+        end
+    end
+end
+
+%% Writing all this data to individual csv files
+file1 = fopen('allpointBack.csv','w');
+file2 = fopen('allpointDown.csv','w');
+file3 = fopen('allpointFront.csv','w');
+file4 = fopen('allpointLeft.csv','w');
+file5 = fopen('allpointRight.csv','w');
+file6 = fopen('allpointUp.csv','w');
+file7 = fopen('allfuzzyBack.csv','w');
+file8 = fopen('allfuzzyDown.csv','w');
+file9 = fopen('allfuzzyFront.csv','w');
+file10 = fopen('allfuzzyLeft.csv','w');
+file11 = fopen('allfuzzyRight.csv','w');
+file12 = fopen('allfuzzyUp.csv','w');
+fprintf(file1,'%s,%s,%s,%s,%s,%s,%s,%s,\n',Back1.');
+fprintf(file2,'%s,%s,%s,%s,%s,%s,%s,%s,\n',Down1.');
+fprintf(file3,'%s,%s,%s,%s,%s,%s,%s,%s,\n',Front1.');
+fprintf(file4,'%s,%s,%s,%s,%s,%s,%s,%s,\n',Left1.');
+fprintf(file5,'%s,%s,%s,%s,%s,%s,%s,%s,\n',Right1.');
+fprintf(file6,'%s,%s,%s,%s,%s,%s,%s,%s,\n',Up1.');
+fprintf(file7,'%s,%s,%s,%s,%s,%s,%s,%s,\n',Back2.');
+fprintf(file8,'%s,%s,%s,%s,%s,%s,%s,%s,\n',Down2.');
+fprintf(file9,'%s,%s,%s,%s,%s,%s,%s,%s,\n',Front2.');
+fprintf(file10,'%s,%s,%s,%s,%s,%s,%s,%s,\n',Left2.');
+fprintf(file11,'%s,%s,%s,%s,%s,%s,%s,%s,\n',Right2.');
+fprintf(file12,'%s,%s,%s,%s,%s,%s,%s,%s,\n',Up2.');
+fclose(file1);
+fclose(file2);
+fclose(file3);
+fclose(file4);
+fclose(file5);
+fclose(file6);
+fclose(file7);
+fclose(file8);
+fclose(file9);
+fclose(file10);
+fclose(file11);
+
+</code></pre>
                 
               
               
@@ -345,6 +533,26 @@
       
         
 <footer class="md-footer">
+  
+    <nav class="md-footer__inner md-grid" aria-label="Footer">
+      
+        
+        <a href="../software/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Learning Python" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              Learning Python
+            </div>
+          </div>
+        </a>
+      
+      
+    </nav>
   
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
