@@ -2,6 +2,7 @@ site_name: UQ PHYS3080 Distance Ladder Project
 nav:
     - Home: index.md
     - Learning Python: software.md
+    - Matlab Scripts: matlab.md
 
 theme:
   name: "material"
