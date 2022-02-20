@@ -34,7 +34,7 @@ If you install Conda like above, you'll be good to go with the terminal command 
 
 On the other hand, you might like to use __Google Colab__, a free web-hosted Jupyter notebook environment that works like Google Docs. Try it [here](https://colab.research.google.com/)!
 
-## My GitHub
+## Git Repositories
 
 How do you share code with your colleagues? This is an important skill not just for this course - but anything you do down the track in science, software engineering, or the commercial sector. This doesn't just apply to Python scripts you'll write here, but to any sort of code - including this website.
 
