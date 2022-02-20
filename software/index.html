@@ -63,7 +63,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#software-practices" class="md-skip">
+        <a href="#python" class="md-skip">
           Skip to content
         </a>
       
@@ -265,6 +265,13 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#using-python" class="md-nav__link">
+    Using Python
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#jupyter-notebooks" class="md-nav__link">
     Jupyter Notebooks
   </a>
@@ -304,6 +311,48 @@
       <a href="../matlab/" class="md-nav__link">
         Matlab Scripts
       </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" >
+      
+      <label class="md-nav__link" for="__nav_4">
+        Analysing Data in Python
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Analysing Data in Python" data-md-level="1">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          Analysing Data in Python
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../notebooks/lombscargle_example/" class="md-nav__link">
+        Extracting Period Information
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
     </li>
   
 
@@ -348,6 +397,13 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#using-python" class="md-nav__link">
+    Using Python
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#jupyter-notebooks" class="md-nav__link">
     Jupyter Notebooks
   </a>
@@ -385,7 +441,7 @@
                   </a>
                 
                 
-                <h1 id="software-practices">Software Practices</h1>
+                <h1 id="python">Python</h1>
 <h2 id="the-command-line">The command line</h2>
 <p>You'll want to have access to a computer with a command line interface - on Mac or Linux, this is just going to be via the app Terminal. On Windows this is called the Command Prompt. (If you have trouble installing you can also use the Google Colab I will mention later!)</p>
 <h2 id="installing-python">Installing Python</h2>
@@ -394,6 +450,7 @@
 <p>To install Python on a Mac or Linux machine, I recommend you install Conda from <a href="https://www.anaconda.com/products/individual">here</a>, and then create and load an environment with important software pre-installed:
 - <code>pip</code>, which installs other Python packages,
 - <code>numpy</code>, which is a general-purpose maths library,
+- <code>matplotlib</code>, the general-purpose Python plotting library,
 - <code>astropy</code>, which has lots of functions for astronomy, including how we will load data, and the Lomb-Scargle Periodogram for period determination,
 - <code>scipy</code>, with miscellaneous scientific python features, and
 - <code>ipykernel</code>, which runs Jupyter notebooks.</p>
@@ -402,6 +459,8 @@ conda create --name ladder python=3.9 pip numpy matplotlib astropy scipy ipykern
 conda activate ladder
 </code></pre>
 <p>Then you can work to your heart's content in this conda environment. </p>
+<h2 id="using-python">Using Python</h2>
+<p>There is a great intro textbook for Python for astronomers, freely available online <a href="https://prappleizer.github.io/">here</a> by Pasha &amp; Agostino.</p>
 <h2 id="jupyter-notebooks">Jupyter Notebooks</h2>
 <p>The main way that professional data scientists, physicists, and astronomers interactively use Python is through the Jupyter Notebook environment. This is an interactive, browser-based interpreter for Python.</p>
 <p>If you install Conda like above, you'll be good to go with the terminal command <code>jupyter notebook</code>. </p>
