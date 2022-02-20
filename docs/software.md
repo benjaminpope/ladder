@@ -1,4 +1,4 @@
-# Software Practices
+# Python
 
 ## The command line
 
@@ -13,6 +13,7 @@ There is a great [conda cheat sheet](https://docs.conda.io/projects/conda/en/4.6
 To install Python on a Mac or Linux machine, I recommend you install Conda from [here](https://www.anaconda.com/products/individual), and then create and load an environment with important software pre-installed:
 - `pip`, which installs other Python packages,
 - `numpy`, which is a general-purpose maths library,
+- `matplotlib`, the general-purpose Python plotting library,
 - `astropy`, which has lots of functions for astronomy, including how we will load data, and the Lomb-Scargle Periodogram for period determination,
 - `scipy`, with miscellaneous scientific python features, and
 - `ipykernel`, which runs Jupyter notebooks.
@@ -25,6 +26,9 @@ conda activate ladder
 
 Then you can work to your heart's content in this conda environment. 
 
+## Using Python
+
+There is a great intro textbook for Python for astronomers, freely available online [here](https://prappleizer.github.io/) by Pasha & Agostino.
 
 ## Jupyter Notebooks
 
