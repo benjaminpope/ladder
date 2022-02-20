@@ -3,7 +3,8 @@ nav:
     - Home: index.md
     - Learning Python: software.md
     - Matlab Scripts: matlab.md
-
+    - 'Analysing Data in Python':
+        - Periodograms: notebooks/lombscargle_example.ipynb
 theme:
   name: "material"
 repo_url: https://github.com/benjaminpope/ladder
