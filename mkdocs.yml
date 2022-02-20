@@ -1,17 +1,11 @@
-site_name: Resources for New Astronomy Research Students
+site_name: UQ PHYS3080 Distance Ladder Project
 nav:
     - Home: index.md
-    - Astronomy Tools: tools.md
-    - Software Practices: software.md 
-    - Publishing in Astronomy: publishing.md
-    - Writing Papers: writing.md
-    - Recommended Reading: reading.md
-    - Values: values.md
-    - Installing Jax: jax_install.md
+    - Learning Python: software.md
 
 theme:
   name: "material"
-repo_url: https://github.com/benjaminpope/startup
+repo_url: https://github.com/benjaminpope/ladder
 plugins:
   - search
   - mkdocs-jupyter
