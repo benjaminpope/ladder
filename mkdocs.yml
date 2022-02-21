@@ -2,9 +2,11 @@ site_name: UQ PHYS3080 Distance Ladder Project
 nav:
     - Home: index.md
     - Learning Python: software.md
-    - Matlab Scripts: matlab.md
     - 'Analysing Data in Python':
+        - HR Diagrams: notebooks/hr_diagram.ipynb
         - Periodograms: notebooks/lombscargle_example.ipynb
+    - Matlab Scripts: matlab.md
+
 theme:
   name: "material"
 repo_url: https://github.com/benjaminpope/ladder

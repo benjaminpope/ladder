@@ -4,7 +4,7 @@ Materials to help students get started in the PHYS3080 Distance Ladder project a
 
 ## Host
 
-Benjamin Pope
+[Benjamin Pope](https://benjaminpope.github.io/)
 
 ## Overview
 
