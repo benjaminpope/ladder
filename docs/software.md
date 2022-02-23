@@ -22,6 +22,9 @@ To install Python on a Mac or Linux machine, I recommend you install Conda from 
 conda init
 conda create --name ladder python=3.9 pip numpy matplotlib astropy scipy ipykernel
 conda activate ladder
+conda install -c conda-forge notebook
+conda install -c conda-forge jupyterlab
+conda install -c conda-forge nb_conda_kernels
 ``` 
 
 Then you can work to your heart's content in this conda environment. 
