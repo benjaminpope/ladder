@@ -67,6 +67,8 @@ git clone https://github.com/benjaminpope/ladder/
 cd ladder
 ```
 
+A really great way of organizing this project, from past experience, is if you create a repository of your own, shared with your group, and develop there. 
+
 ## Making Open-Source Software
 
 Christina Hedges (NASA Ames) has a fantastic introduction to open-source software practices for astronomy, in which the above tools and many others are explained, for an audience of ~ PhD students:
