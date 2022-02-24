@@ -1054,7 +1054,7 @@ all of MD as it is not optimized for dense, information rich UIs.
         
         
         <div class="CodeMirror cm-s-jupyter">
-    <div class="highlight-ipynb hl-python"><pre><span></span><span class="n">ddir</span> <span class="o">=</span> <span class="s1">&#39;/Users/benjaminpope/code/uqdistanceladder/data/U00/Down/B03/&#39;</span>
+    <div class="highlight-ipynb hl-python"><pre><span></span><span class="n">ddir</span> <span class="o">=</span> <span class="s1">&#39;../B03/&#39;</span>
 </pre></div>
 
         </div>
@@ -1077,7 +1077,7 @@ all of MD as it is not optimized for dense, information rich UIs.
         
         
         <div class="CodeMirror cm-s-jupyter">
-    <div class="highlight-ipynb hl-python"><pre><span></span><span class="n">ls</span> <span class="o">/</span><span class="n">Users</span><span class="o">/</span><span class="n">benjaminpope</span><span class="o">/</span><span class="n">code</span><span class="o">/</span><span class="n">uqdistanceladder</span><span class="o">/</span><span class="n">data</span><span class="o">/</span><span class="n">U00</span><span class="o">/</span><span class="n">Down</span><span class="o">/</span><span class="n">B03</span><span class="o">/</span>
+    <div class="highlight-ipynb hl-python"><pre><span></span><span class="n">ls</span> <span class="o">../</span><span class="n">B03</span><span class="o">/</span>
 </pre></div>
 
         </div>
@@ -1379,7 +1379,7 @@ P01479.csv   P02520.png   P04011.csv   P04327.png   fuzzy.txt
 
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>[&#39;/Users/benjaminpope/code/uqdistanceladder/data/U00/Down/B03/P01479.csv&#39;, &#39;/Users/benjaminpope/code/uqdistanceladder/data/U00/Down/B03/P01247.csv&#39;, &#39;/Users/benjaminpope/code/uqdistanceladder/data/U00/Down/B03/P01252.csv&#39;, &#39;/Users/benjaminpope/code/uqdistanceladder/data/U00/Down/B03/P02770.csv&#39;, &#39;/Users/benjaminpope/code/uqdistanceladder/data/U00/Down/B03/P02893.csv&#39;, &#39;/Users/benjaminpope/code/uqdistanceladder/data/U00/Down/B03/P04011.csv&#39;, &#39;/Users/benjaminpope/code/uqdistanceladder/data/U00/Down/B03/P04549.csv&#39;, &#39;/Users/benjaminpope/code/uqdistanceladder/data/U00/Down/B03/P01813.csv&#39;, &#39;/Users/benjaminpope/code/uqdistanceladder/data/U00/Down/B03/P03630.csv&#39;, &#39;/Users/benjaminpope/code/uqdistanceladder/data/U00/Down/B03/P05336.csv&#39;, &#39;/Users/benjaminpope/code/uqdistanceladder/data/U00/Down/B03/P02520.csv&#39;, &#39;/Users/benjaminpope/code/uqdistanceladder/data/U00/Down/B03/P01995.csv&#39;, &#39;/Users/benjaminpope/code/uqdistanceladder/data/U00/Down/B03/P04153.csv&#39;, &#39;/Users/benjaminpope/code/uqdistanceladder/data/U00/Down/B03/P00119.csv&#39;, &#39;/Users/benjaminpope/code/uqdistanceladder/data/U00/Down/B03/P04327.csv&#39;, &#39;/Users/benjaminpope/code/uqdistanceladder/data/U00/Down/B03/P04290.csv&#39;, &#39;/Users/benjaminpope/code/uqdistanceladder/data/U00/Down/B03/P04693.csv&#39;]
+<pre>[&#39;../B03/P01479.csv&#39;, &#39;../B03/P01247.csv&#39;, &#39;../B03/P01252.csv&#39;, &#39;../B03/P02770.csv&#39;, &#39;../B03/P02893.csv&#39;, &#39;../B03/P04011.csv&#39;, &#39;../B03/P04549.csv&#39;, &#39;../B03/P01813.csv&#39;, &#39;../B03/P03630.csv&#39;, &#39;../B03/P05336.csv&#39;, &#39;../B03/P02520.csv&#39;, &#39;../B03/P01995.csv&#39;, &#39;../B03/P04153.csv&#39;, &#39;../B03/P00119.csv&#39;, &#39;../B03/P04327.csv&#39;, &#39;../B03/P04290.csv&#39;, &#39;../B03/P04693.csv&#39;]
 </pre>
 </div>
 </div>
@@ -1743,7 +1743,7 @@ P01479.csv   P02520.png   P04011.csv   P04327.png   fuzzy.txt
         
         <div class="CodeMirror cm-s-jupyter">
     <div class="highlight-ipynb hl-python"><pre><span></span><span class="c1"># because these are old data, they are formatted differently to the data you have</span>
-<span class="c1"># so you can ignore this in your own analysis!</span>
+<span class="c1"># so you can ignore this line in your own analysis!</span>
 <span class="n">stars</span><span class="o">.</span><span class="n">rename_columns</span><span class="p">([</span><span class="s1">&#39;col1&#39;</span><span class="p">,</span><span class="s1">&#39;col2&#39;</span><span class="p">,</span><span class="s1">&#39;col3&#39;</span><span class="p">,</span><span class="s1">&#39;col4&#39;</span><span class="p">,</span><span class="s1">&#39;col5&#39;</span><span class="p">,</span><span class="s1">&#39;col6&#39;</span><span class="p">,</span><span class="s1">&#39;col7&#39;</span><span class="p">,</span><span class="s1">&#39;col8&#39;</span><span class="p">],</span>
                      <span class="p">[</span><span class="s1">&#39;name&#39;</span><span class="p">,</span><span class="s1">&#39;x&#39;</span><span class="p">,</span> <span class="s1">&#39;y&#39;</span><span class="p">,</span> <span class="s1">&#39;flux0&#39;</span><span class="p">,</span> <span class="s1">&#39;flux1&#39;</span><span class="p">,</span> <span class="s1">&#39;flux2&#39;</span><span class="p">,</span> <span class="s1">&#39;par&#39;</span><span class="p">,</span> <span class="s1">&#39;rv&#39;</span><span class="p">])</span>
 </pre></div>
