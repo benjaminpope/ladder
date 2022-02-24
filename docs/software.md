@@ -10,15 +10,19 @@ Most software development will be done in Python, and I recommend using Anaconda
 
 There is a great [conda cheat sheet](https://docs.conda.io/projects/conda/en/4.6.0/_downloads/52a95608c49671267e40c689e0bc00ca/conda-cheatsheet.pdf) with lots of tools to help you use Conda.
 
-To install Python on a Mac or Linux machine, I recommend you install Conda from [here](https://www.anaconda.com/products/individual), and then create and load an environment with important software pre-installed:
+Anaconda is available on the UQ Digital Workspaces as the package `Anaconda3-2020.02`. 
+
+To install Python on a Mac or Linux machine of your own, I recommend you install Conda from [here](https://www.anaconda.com/products/individual).
+
+When working in Python, it is best to create a new environment for each project. For this project, you will want these important packages pre-installed:
 - `pip`, which installs other Python packages,
 - `numpy`, which is a general-purpose maths library,
 - `matplotlib`, the general-purpose Python plotting library,
 - `astropy`, which has lots of functions for astronomy, including how we will load data, and the Lomb-Scargle Periodogram for period determination,
-- `scipy`, with miscellaneous scientific python features, and
+- `scipy`, with miscellaneous scientific Python features, and
 - `ipykernel`, which runs Jupyter notebooks.
 
-```
+```shell
 conda init
 conda create --name ladder python=3.9 pip numpy matplotlib astropy scipy ipykernel
 conda activate ladder
@@ -55,13 +59,13 @@ You can share these codes with your teammates and jointly collaborate on a proje
 
 All my code is version-controlled [github.com/benjaminpope](https://github.com/benjaminpope/). On my local machine I made a directory `/Users/benjaminpope/code/`
 
-```
+```shell
 cd .
 mkdir code
 ```
 and you can download a repo (like this website as an example!) to your machine like this:
 
-```
+```shell
 cd code
 git clone https://github.com/benjaminpope/ladder/
 cd ladder

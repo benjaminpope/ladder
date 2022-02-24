@@ -12,7 +12,7 @@ Files need to be saved as `allpoint.txt` and `allfuzzy.txt` in the same folder d
 Thanks for Kyle Clunies-Ross for writing this script!
 
 
-```
+```matlab
 clc;
 clear all;
 
