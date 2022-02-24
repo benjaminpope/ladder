@@ -9,6 +9,10 @@ nav:
 
 theme:
   name: "material"
+  palette:
+    primary: deep purple
+    accent: purple
+
 repo_url: https://github.com/benjaminpope/ladder
 plugins:
   - search
