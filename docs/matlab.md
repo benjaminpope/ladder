@@ -1,6 +1,6 @@
 # matlab.md
 
-Most professional data scientists, physicists and astronomers use the open-source Python as their main interpreted language, with substantial minorities using open-source languages [R](https://www.r-project.org/) [Julia](https://julialang.org/) and the closed-source [IDL](https://www.l3harrisgeospatial.com/Software-Technology/IDL). 
+Most professional data scientists, physicists and astronomers use the open-source Python as their main interpreted language, with substantial minorities using open-source languages [R](https://www.r-project.org/), [Julia](https://julialang.org/), and the closed-source [IDL](https://www.l3harrisgeospatial.com/Software-Technology/IDL). 
 
 It has been common for universities to teach students Matlab, but this is increasingly uncommon in physics outside of engineering contexts, and requires expensive closed-source licenses. I personally don't recommend you practise Matlab unless you are going mainly into engineering, but if you are already familiar with it, it is well suited to this project. Here are some resources for using Matlab for the Distance Ladder project.
 
