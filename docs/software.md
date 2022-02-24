@@ -22,6 +22,8 @@ When working in Python, it is best to create a new environment for each project.
 - `scipy`, with miscellaneous scientific Python features, and
 - `ipykernel`, which runs Jupyter notebooks.
 
+You can create a new environment with all of this using the following terminal commands:
+
 ```shell
 conda init
 conda create --name ladder python=3.9 pip numpy matplotlib astropy scipy ipykernel
@@ -57,7 +59,7 @@ The most popular software for interacting with repositories is `git`, and there 
 
 You can share these codes with your teammates and jointly collaborate on a project. The user interface is a little harder than Google Docs but I recommend you master it - it is a huge transferable skill.  
 
-All my code is version-controlled [github.com/benjaminpope](https://github.com/benjaminpope/). On my local machine I made a directory `/Users/benjaminpope/code/`
+All my code is version-controlled [github.com/benjaminpope](https://github.com/benjaminpope/). On my local machine I made a directory `/Users/benjaminpope/code/`, using terminal commands
 
 ```shell
 cd .
