@@ -14,7 +14,7 @@
     
     
       
-        <title>Matlab Scripts - UQ PHYS3080 Distance Ladder Project</title>
+        <title>Project Intro & Data - UQ PHYS3080 Distance Ladder Project</title>
       
     
     
@@ -67,7 +67,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#matlabmd" class="md-skip">
+        <a href="#your-universes" class="md-skip">
           Skip to content
         </a>
       
@@ -97,7 +97,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Matlab Scripts
+              Project Intro & Data
             
           </span>
         </div>
@@ -220,11 +220,72 @@
 
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="../universe/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Project Intro & Data
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         Project Intro & Data
       </a>
+      
+        
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#context" class="md-nav__link">
+    Context
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#data-sets" class="md-nav__link">
+    Data Sets
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hints" class="md-nav__link">
+    Hints
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#deadlines-and-grading" class="md-nav__link">
+    Deadlines and Grading
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -304,51 +365,11 @@
 
   
   
-    
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          Matlab Scripts
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../matlab/" class="md-nav__link">
         Matlab Scripts
       </a>
-      
-        
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#loading-data" class="md-nav__link">
-    Loading data
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -379,8 +400,29 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#loading-data" class="md-nav__link">
-    Loading data
+  <a href="#context" class="md-nav__link">
+    Context
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#data-sets" class="md-nav__link">
+    Data Sets
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hints" class="md-nav__link">
+    Hints
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#deadlines-and-grading" class="md-nav__link">
+    Deadlines and Grading
   </a>
   
 </li>
@@ -397,200 +439,69 @@
             <article class="md-content__inner md-typeset">
               
                 
-                  <a href="https://github.com/benjaminpope/ladder/edit/master/docs/matlab.md" title="Edit this page" class="md-content__button md-icon">
+                  <a href="https://github.com/benjaminpope/ladder/edit/master/docs/universe.md" title="Edit this page" class="md-content__button md-icon">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
                   </a>
                 
                 
-                <h1 id="matlabmd">matlab.md</h1>
-<p>Most professional data scientists, physicists and astronomers use the open-source Python as their main interpreted language, with substantial minorities using open-source languages <a href="https://www.r-project.org/">R</a>, <a href="https://julialang.org/">Julia</a>, and the closed-source <a href="https://www.l3harrisgeospatial.com/Software-Technology/IDL">IDL</a>. </p>
-<p>It has been common for universities to teach students Matlab, but this is increasingly uncommon in physics outside of engineering contexts, and requires expensive closed-source licenses. I personally don't recommend you practise Matlab unless you are going mainly into engineering, but if you are already familiar with it, it is well suited to this project. Here are some resources for using Matlab for the Distance Ladder project.</p>
-<h2 id="loading-data">Loading data</h2>
-<p>Script to read the data given in the <code>allpoints</code> and <code>fuzzypoints</code> data files and convert them into <code>.csv</code> files according to the camera location.</p>
-<p>Files need to be saved as <code>allpoint.txt</code> and <code>allfuzzy.txt</code> in the same folder directory as this script is saved in.
-Thanks for Kyle Clunies-Ross for writing this script!</p>
-<pre><code class="language-matlab">clc;
-clear all;
-
-%% Importing data
-filename1 = 'allpoint.txt';
-filename2 = 'allfuzzy.txt';
-
-startRow = 2;
-endRow = inf;
-
-%creating file IDs
-fileID1 = fopen(filename1,'r');
-fileID2 = fopen(filename2,'r');
-%set up the formatting for the arrays
-formatSpec = '%5C%11f%8f%9f%9f%9f%8f%f%[^\n\r]';
-
-%Making an array from the files
-dataArray1 = textscan(fileID1, formatSpec, endRow(1)-startRow(1)+1, 'Delimiter', '', 'WhiteSpace', '', 'TextType', 'string', 'EmptyValue', NaN, 'HeaderLines', startRow(1)-1, 'ReturnOnError', false, 'EndOfLine', '\r\n');
-dataArray2 = textscan(fileID2, formatSpec, endRow(1)-startRow(1)+1, 'Delimiter', '', 'WhiteSpace', '', 'TextType', 'string', 'EmptyValue', NaN, 'HeaderLines', startRow(1)-1, 'ReturnOnError', false, 'EndOfLine', '\r\n');
-for block=2:length(startRow)
-    frewind(fileID1);
-    frewind(fileID2);
-    dataArrayBlock1 = textscan(fileID1, formatSpec, endRow(block)-startRow(block)+1, 'Delimiter', '', 'WhiteSpace', '', 'TextType', 'string', 'EmptyValue', NaN, 'HeaderLines', startRow(block)-1, 'ReturnOnError', false, 'EndOfLine', '\r\n');
-    dataArrayBlock2 = textscan(fileID2, formatSpec, endRow(block)-startRow(block)+1, 'Delimiter', '', 'WhiteSpace', '', 'TextType', 'string', 'EmptyValue', NaN, 'HeaderLines', startRow(block)-1, 'ReturnOnError', false, 'EndOfLine', '\r\n');
-    for col=1:length(dataArray1)
-        dataArray1{col} = [dataArray1{col};dataArrayBlock1{col}];
-    end
-    for col=1:length(dataArray2)
-        dataArray2{col} = [dataArray2{col};dataArrayBlock2{col}];
-    end
-end
-
-%Close files
-fclose(fileID1);
-fclose(fileID2);
-
-%set up tables from the arrays
-allpointData = table(dataArray1{1:end-1}, 'VariableNames', {'Cam','X','Y','BlueFlx','GreenFlx','RedFlx','Par','RV'});
-allfuzzyData = table(dataArray2{1:end-1}, 'VariableNames', {'Cam','X','Y','BlueFlx','GreenFlx','RedFlx','Size','RV'});
-
-%% Putting the data from the tables into individual matrices
-Name1 = [&quot;Cam&quot;,&quot;X&quot;,&quot;Y&quot;,&quot;BlueFlx&quot;,&quot;GreenFlx&quot;,&quot;RedFlx&quot;,&quot;Par&quot;,&quot;RV&quot;]; %writing headers
-for i = 1:size(allpointData,2)
-   Back1(1,i) = Name1(1,i);
-   Front1(1,i) = Name1(1,i);
-   Left1(1,i) = Name1(1,i);
-   Right1(1,i) = Name1(1,i);
-   Up1(1,i) = Name1(1,i);
-   Down1(1,i) = Name1(1,i);
-end
-
-Name2 = [&quot;Cam&quot;,&quot;X&quot;,&quot;Y&quot;,&quot;BlueFlx&quot;,&quot;GreenFlx&quot;,&quot;RedFlx&quot;,&quot;Size&quot;,&quot;RV&quot;]; %writing headers
-for i = 1:size(allpointData,2)
-   Back2(1,i) = Name2(1,i);
-   Front2(1,i) = Name2(1,i);
-   Left2(1,i) = Name2(1,i);
-   Right2(1,i) = Name2(1,i);
-   Up2(1,i) = Name2(1,i);
-   Down2(1,i) = Name2(1,i);
-end
-
-a = 1; %These variables used to index the matrices
-b = 1;
-c = 1;
-d = 1;
-e = 1;
-f = 1;
-
-%Writing these values to matrices
-for i = 1:size(allpointData,1)
-    if allpointData{i,1} == 'Back'
-        a = a + 1;
-        for n = 1:size(allpointData,2)
-            Back1(a,n) = string(allpointData{i,n});
-        end
-    elseif allpointData{i,1} == 'Front'
-        b = b + 1;
-        for n = 1:size(allpointData,2)
-            Front1(b,n) = string(allpointData{i,n});
-        end  
-    elseif allpointData{i,1} == 'Left'
-        c = c + 1;
-        for n = 1:size(allpointData,2)
-            Left1(c,n) = string(allpointData{i,n});
-        end
-    elseif allpointData{i,1} == 'Right'
-        d = d + 1;
-        for n = 1:size(allpointData,2)
-            Right1(d,n) = string(allpointData{i,n});
-        end
-    elseif allpointData{i,1} == 'Up'
-        e = e + 1;
-        for n = 1:size(allpointData,2)
-            Up1(e,n) = string(allpointData{i,n});
-        end
-    elseif allpointData{i,1} == 'Down'
-        f = f + 1;
-        for n = 1:size(allpointData,2)
-            Down1(f,n) = string(allpointData{i,n});
-        end
-    end
-end
-
-a = 1; %Resetting these variables
-b = 1;
-c = 1;
-d = 1;
-e = 1;
-f = 1;
-
-for i = 1:size(allfuzzyData,1)
-    if allfuzzyData{i,1} == 'Back'
-        a = a + 1;
-        for n = 1:size(allfuzzyData,2)
-            Back2(a,n) = string(allfuzzyData{i,n});
-        end
-    elseif allfuzzyData{i,1} == 'Front'
-        b = b + 1;
-        for n = 1:size(allfuzzyData,2)
-            Front2(b,n) = string(allfuzzyData{i,n});
-        end  
-    elseif allfuzzyData{i,1} == 'Left'
-        c = c + 1;
-        for n = 1:size(allfuzzyData,2)
-            Left2(c,n) = string(allfuzzyData{i,n});
-        end
-    elseif allfuzzyData{i,1} == 'Right'
-        d = d + 1;
-        for n = 1:size(allfuzzyData,2)
-            Right2(d,n) = string(allfuzzyData{i,n});
-        end
-    elseif allfuzzyData{i,1} == 'Up'
-        e = e + 1;
-        for n = 1:size(allfuzzyData,2)
-            Up2(e,n) = string(allfuzzyData{i,n});
-        end
-    elseif allfuzzyData{i,1} == 'Down'
-        f = f + 1;
-        for n = 1:size(allfuzzyData,2)
-            Down2(f,n) = string(allfuzzyData{i,n});
-        end
-    end
-end
-
-%% Writing all this data to individual csv files
-file1 = fopen('allpointBack.csv','w');
-file2 = fopen('allpointDown.csv','w');
-file3 = fopen('allpointFront.csv','w');
-file4 = fopen('allpointLeft.csv','w');
-file5 = fopen('allpointRight.csv','w');
-file6 = fopen('allpointUp.csv','w');
-file7 = fopen('allfuzzyBack.csv','w');
-file8 = fopen('allfuzzyDown.csv','w');
-file9 = fopen('allfuzzyFront.csv','w');
-file10 = fopen('allfuzzyLeft.csv','w');
-file11 = fopen('allfuzzyRight.csv','w');
-file12 = fopen('allfuzzyUp.csv','w');
-fprintf(file1,'%s,%s,%s,%s,%s,%s,%s,%s,\n',Back1.');
-fprintf(file2,'%s,%s,%s,%s,%s,%s,%s,%s,\n',Down1.');
-fprintf(file3,'%s,%s,%s,%s,%s,%s,%s,%s,\n',Front1.');
-fprintf(file4,'%s,%s,%s,%s,%s,%s,%s,%s,\n',Left1.');
-fprintf(file5,'%s,%s,%s,%s,%s,%s,%s,%s,\n',Right1.');
-fprintf(file6,'%s,%s,%s,%s,%s,%s,%s,%s,\n',Up1.');
-fprintf(file7,'%s,%s,%s,%s,%s,%s,%s,%s,\n',Back2.');
-fprintf(file8,'%s,%s,%s,%s,%s,%s,%s,%s,\n',Down2.');
-fprintf(file9,'%s,%s,%s,%s,%s,%s,%s,%s,\n',Front2.');
-fprintf(file10,'%s,%s,%s,%s,%s,%s,%s,%s,\n',Left2.');
-fprintf(file11,'%s,%s,%s,%s,%s,%s,%s,%s,\n',Right2.');
-fprintf(file12,'%s,%s,%s,%s,%s,%s,%s,%s,\n',Up2.');
-fclose(file1);
-fclose(file2);
-fclose(file3);
-fclose(file4);
-fclose(file5);
-fclose(file6);
-fclose(file7);
-fclose(file8);
-fclose(file9);
-fclose(file10);
-fclose(file11);
-
-</code></pre>
+                <h1 id="your-universes">Your Universes</h1>
+<h2 id="context">Context</h2>
+<p>The planet of New Earth is engulfed in one of the thickest atmospheres in the Universe. Although New Earthlings are highly intelligent, their concept of astronomy is relatively new. When their first rockets penetrated the clouds and snapped pictures of the sky above, they discovered their planet was orbiting a star (along with other planets) and the sky was filled with other sources of light (other stars?).</p>
+<p>Many rockets later, the New Earthlings have gained a good understanding of their own solar system. Very little, however, is known about the rest of their Universe. It is known that there are many dots of light, and some small fuzzy glowing patches, which do not seem to move across the sky, and which are probably not part of the solar system. Spectra have been obtained of a few of these dots and fuzzy patches - the spectra look like black body curves with absorption-lines superimposed. They seem to have a range of temperatures (typically a few thousand K), and to be made of elements such as Hydrogen and Carbon, similar to New Earth's parent Sun.</p>
+<p>Over the last few years, you have helped build the planet's most ambitious (and expensive) space-probe yet: the Pimbblet Picture Producer (named after an Antipodean scientist with a rare surname who liked thinking about BIG questions). This remarkable satellite contained a number of instruments:</p>
+<ul>
+<li>Six wide-field cameras, each of which repeatedly took pictures of 1/6 of the sky. Together, they measured the brightness and position of each object in the sky repeatedly. Variable objects were automatically identified and light curves generated for them.</li>
+<li>A high resolution, narrow-field camera, which took more detailed close-up images of smaller regions. It took two images of each part of the sky, spaced by six months. This six month spacing allowed it to measure the parallax of each source, as New Earth moves around its Sun (New Earth is 1 AU from its Sun, and orbits it once a year). It detects every object brighter than 10-17 W m-2 nm-1 in its field of view.</li>
+<li>A spectrometer, which measured the wavelengths of the various absorption-lines, and hence used the Doppler effect to determine the radial velocity of each object detected by the imaging cameras.</li>
+<li>An X-ray all-sky monitor which had 1m2 detector area, which scanned the sky looking for any X-rays coming from space.</li>
+</ul>
+<p>All these instruments were programmed to not take data whenever anything in New Earth's solar system was in their field of view. This was to prevent the cameras being damaged by such bright targets. As a result, you will not see anything from New Earth's solar system in these data.</p>
+<p>The space-probe has just landed after its one year mission, and the data tapes eagerly retrieved by your team. You have just started to analyse these exciting and unprecedented data.</p>
+<h2 id="data-sets">Data Sets</h2>
+<p>Each group has a different Universe to work with, but note that they don't necessarily have the same properties!</p>
+<p>At the first lab, you will be assigned to groups. Here are your datasets:</p>
+<ul>
+<li><a href="https://people.smp.uq.edu.au/BenjaminPope/data/index.html">Index</a></li>
+<li><a href="https://people.smp.uq.edu.au/BenjaminPope/data/U00/index.html">Group 1</a></li>
+<li><a href="https://people.smp.uq.edu.au/BenjaminPope/data/U01/index.html">Group 2</a></li>
+<li><a href="https://people.smp.uq.edu.au/BenjaminPope/data/U02/index.html">Group 3</a></li>
+<li><a href="https://people.smp.uq.edu.au/BenjaminPope/data/U03/index.html">Group 4</a></li>
+<li><a href="https://people.smp.uq.edu.au/BenjaminPope/data/U04/index.html">Group 5</a></li>
+<li><a href="https://people.smp.uq.edu.au/BenjaminPope/data/U05/index.html">Group 6</a></li>
+<li><a href="https://people.smp.uq.edu.au/BenjaminPope/data/U06/index.html">Group 7</a></li>
+<li><a href="https://people.smp.uq.edu.au/BenjaminPope/data/U07/index.html">Group 8</a></li>
+<li><a href="https://people.smp.uq.edu.au/BenjaminPope/data/U08/index.html">Group 9</a></li>
+<li><a href="https://people.smp.uq.edu.au/BenjaminPope/data/U09/index.html">Group 10</a></li>
+<li><a href="https://people.smp.uq.edu.au/BenjaminPope/data/U010/index.html">Group 11</a></li>
+</ul>
+<h2 id="hints">Hints</h2>
+<p>Your job, in general terms, is to work out as much as you can about New Earth's Universe. You can assume that basic physical constants like the speed of light or the constant of gravity are the same as in our universe. However, the more complicated physics like star formation, stellar and galaxy evolution are probably different. To what extent they differ is something that you will have to work out. The more you work out, the better your score in this assignment will be. Here are some some unsorted, non-exhaustive hints and pointers about the exercise:</p>
+<p>There are no marks for just coming up with lists of numbers -- we are interested in the physics of your given Universe.</p>
+<ul>
+<li>Does your Universe contain galaxies? Galaxies with disks? How big are the disks (radius and thickness)? Do they have dark matter? Which galaxy does New Earth reside in? Can you produce an H-R diagram for New Earth's galaxy?</li>
+<li>Is the cosmological principle obeyed (i.e. homogeneity and isotropy?)</li>
+<li>What are the X-ray flashes all about? Why do they occur and how frequently?</li>
+<li>How massive are galaxies in your Universe? How many stars per galaxy (typically)? What are the temperatures and radii of these stars? What's their mass to light ratio?</li>
+<li>How far away are the galaxies in your Universe? More importantly: can you construct a convincing distance ladder?</li>
+<li>Can you determine if you have any groups or clusters of galaxies? What are their populations and stellar populations like? What is the ratio of total cluster mass to luminous cluster mass? Do the galaxies contain black holes?</li>
+<li>Compute Hubble's constant. How old is your Universe?</li>
+<li>Only for those of you feeling very ambitious!<ul>
+<li>How did your Universe begin and what is its future? Is there life elsewhere in your galaxy or Universe?</li>
+</ul>
+</li>
+</ul>
+<p>Much like investigating the real Universe, we don't expect you to address ALL of the above questions in a superbly detailed manner. You must pick and choose which questions or aspects of this project you want to concentrate on.</p>
+<p>However: We suggest that your starting point be constructing a distance ladder.</p>
+<h2 id="deadlines-and-grading">Deadlines and Grading</h2>
+<p>Please note that this is not an assignment that you can leave until the last possible moment. We will be spending a number of sessions in the computer lab for you to investigate the complex dataset, but you should also be continuing with this exercise in your own time. You have to do the following:</p>
+<ul>
+<li>Read the marking scheme <a href="https://learn.uq.edu.au/bbcswebdav/pid-7451506-dt-content-rid-42351967_1/xid-42351967_1">here</a>.</li>
+<li>Work in your groups to help each other solve the important parts of the problem.</li>
+<li>Document your contribution to the group work on the group discussion board. You must make at least one significant posting at least a week before the final deadline.</li>
+<li>Submit a full written report. This is your own report: you can use results from other group members (if acknowledged) but the writing must all be your own. It needs an abstract section that gives clear statements of your answers; see the marking scheme for more details. You may place detailed calculations in an appendix so as to not clutter up the body of the text. We will require an electronic copy of your assignment to be uploaded via Turnitin (accessed through Blackboard).</li>
+<li>In your project work and in the reports, concentrate on getting physical information out of the data. Avoid speculations that cannot be backed up by actual data. Also avoid drawing parallels to our universe. To the astronomers in New Universe, our universe is not available for comparison.</li>
+<li>Deadline for the written component? See Course Profile. Note the time deadline for electronic submission is strict and exact!</li>
+</ul>
                 
               
               
@@ -610,7 +521,7 @@ fclose(file11);
     <nav class="md-footer__inner md-grid" aria-label="Footer">
       
         
-        <a href="../notebooks/lombscargle_example/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Extracting Period Information" rel="prev">
+        <a href=".." class="md-footer__link md-footer__link--prev" aria-label="Previous: Home" rel="prev">
           <div class="md-footer__button md-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
           </div>
@@ -619,11 +530,26 @@ fclose(file11);
               <span class="md-footer__direction">
                 Previous
               </span>
-              Extracting Period Information
+              Home
             </div>
           </div>
         </a>
       
+      
+        
+        <a href="../software/" class="md-footer__link md-footer__link--next" aria-label="Next: Learning Python" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              Learning Python
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+          </div>
+        </a>
       
     </nav>
   
