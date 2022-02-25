@@ -43,9 +43,28 @@ There is a great intro textbook for Python for astronomers, freely available onl
 
 The main way that professional data scientists, physicists, and astronomers interactively use Python is through the Jupyter Notebook environment. This is an interactive, browser-based interpreter for Python.
 
+Here is a [great tutorial]((https://www.dataquest.io/blog/jupyter-notebook-tutorial/)) on using Jupyter notebooks - if you haven't before, I recommend you try this! 
+
 If you install Conda like above, you'll be good to go with the terminal command `jupyter notebook`. 
 
-On the other hand, you might like to use __Google Colab__, a free web-hosted Jupyter notebook environment that works like Google Docs. Try it [here](https://colab.research.google.com/)!
+## Google Colab
+
+While some Windows users have Conda working very nicely, some users have been having difficulty.
+
+If this is the case for you, I recommend you use __Google Colab__, a free web-hosted Jupyter notebook environment that works like Google Docs. (There are paid versions, but you will not need to use these right now.)
+
+Try it [here](https://colab.research.google.com/)! You can upload your project data to your Google drive, and instead of using `conda` to manage your environment and installed packages, in the first cell just execute
+
+```shell
+! pip install numpy matplotlib astropy scipy ipykernel
+```
+
+I have created Google Colab versions of the tutorial pages from this site: 
+
+- [HR Diagram](https://colab.research.google.com/drive/1dKY_ERciOdq0aSoDaUmNJLO5rkh6Ho1t?usp=sharing)
+- [Lomb-Scargle Periodogram](https://colab.research.google.com/drive/11EYzk_5cyNpCWWItp0NusuBRHh__TY-l?usp=sharing)
+
+The important thing to remember is you will have to host your project data on your Google Drive or GitHub and download it when you start your Colab session.
 
 ## Git Repositories
 
