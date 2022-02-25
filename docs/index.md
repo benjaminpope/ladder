@@ -10,7 +10,7 @@ Materials to help students get started in the PHYS3080 Distance Ladder project a
 
 If you're reading this, welcome! I'm excited to have you in our class.
 
-The Distance Ladder project is a computer lab, in which you'll be expected to do computer-based data analysis of a simulated universe. 
+The Distance Ladder project is a computer lab, in which you'll be expected to do computer-based data analysis of a simulated universe. You can find the project description and data [here](universe).
 
 These (evolving) documents are to help you get to know the tools and ideas that will be important in working together on these projects. Check out the links on the left to browse the resources.
 

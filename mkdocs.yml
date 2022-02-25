@@ -1,6 +1,7 @@
 site_name: UQ PHYS3080 Distance Ladder Project
 nav:
     - Home: index.md
+    - Project Intro & Data: universe.md
     - Learning Python: software.md
     - 'Analysing Data in Python':
         - HR Diagrams: notebooks/hr_diagram.ipynb
