@@ -298,6 +298,13 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#google-colab" class="md-nav__link">
+    Google Colab
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#git-repositories" class="md-nav__link">
     Git Repositories
   </a>
@@ -442,6 +449,13 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#google-colab" class="md-nav__link">
+    Google Colab
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#git-repositories" class="md-nav__link">
     Git Repositories
   </a>
@@ -500,8 +514,20 @@ conda install -c conda-forge nb_conda_kernels
 <p>There is a great intro textbook for Python for astronomers, freely available online <a href="https://prappleizer.github.io/">here</a> by Pasha &amp; Agostino.</p>
 <h2 id="jupyter-notebooks">Jupyter Notebooks</h2>
 <p>The main way that professional data scientists, physicists, and astronomers interactively use Python is through the Jupyter Notebook environment. This is an interactive, browser-based interpreter for Python.</p>
+<p>Here is a <a href="(https://www.dataquest.io/blog/jupyter-notebook-tutorial/)">great tutorial</a> on using Jupyter notebooks - if you haven't before, I recommend you try this! </p>
 <p>If you install Conda like above, you'll be good to go with the terminal command <code>jupyter notebook</code>. </p>
-<p>On the other hand, you might like to use <strong>Google Colab</strong>, a free web-hosted Jupyter notebook environment that works like Google Docs. Try it <a href="https://colab.research.google.com/">here</a>!</p>
+<h2 id="google-colab">Google Colab</h2>
+<p>While some Windows users have Conda working very nicely, some users have been having difficulty.</p>
+<p>If this is the case for you, I recommend you use <strong>Google Colab</strong>, a free web-hosted Jupyter notebook environment that works like Google Docs. (There are paid versions, but you will not need to use these right now.)</p>
+<p>Try it <a href="https://colab.research.google.com/">here</a>! You can upload your project data to your Google drive, and instead of using <code>conda</code> to manage your environment and installed packages, in the first cell just execute</p>
+<pre><code class="language-shell">! pip install numpy matplotlib astropy scipy ipykernel
+</code></pre>
+<p>I have created Google Colab versions of the tutorial pages from this site: </p>
+<ul>
+<li><a href="https://colab.research.google.com/drive/1dKY_ERciOdq0aSoDaUmNJLO5rkh6Ho1t?usp=sharing">HR Diagram</a></li>
+<li><a href="https://colab.research.google.com/drive/11EYzk_5cyNpCWWItp0NusuBRHh__TY-l?usp=sharing">Lomb-Scargle Periodogram</a></li>
+</ul>
+<p>The important thing to remember is you will have to host your project data on your Google Drive or GitHub and download it when you start your Colab session.</p>
 <h2 id="git-repositories">Git Repositories</h2>
 <p>How do you share code with your colleagues? This is an important skill not just for this course - but anything you do down the track in science, software engineering, or the commercial sector. This doesn't just apply to Python scripts you'll write here, but to any sort of code - including this website.</p>
 <p>You want to have everything in a <em>repository</em>, which is a remote server in the cloud that has all your software backed up, with saved checkpoints you can go back to if something is wrong.</p>
