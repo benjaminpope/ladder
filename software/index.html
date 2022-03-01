@@ -501,10 +501,12 @@
 - <code>astropy</code>, which has lots of functions for astronomy, including how we will load data, and the Lomb-Scargle Periodogram for period determination,
 - <code>scipy</code>, with miscellaneous scientific Python features, and
 - <code>ipykernel</code>, which runs Jupyter notebooks.</p>
-<p>You can create a new environment with all of this using the following terminal commands:</p>
+<p>You can create a new environment called <code>ladder</code> with all of this, using the following terminal commands:</p>
 <pre><code class="language-shell">conda init
 conda create --name ladder python=3.9 pip numpy matplotlib astropy scipy ipykernel
-conda activate ladder
+</code></pre>
+<p>Then you want to <em>activate</em> this ennvironment, and install the Jupyter notebook packages.</p>
+<pre><code class="language-shell">conda activate ladder
 conda install -c conda-forge notebook
 conda install -c conda-forge jupyterlab
 conda install -c conda-forge nb_conda_kernels
