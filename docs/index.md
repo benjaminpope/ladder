@@ -22,4 +22,4 @@ Most astronomers, physicists, and data scientists in academia and the private se
 
 There is a tutorial page on installing Python in this project [here](software), and Python notebooks to show you how to [estimate the distance to a cluster](notebooks/hr_diagram) and figure out a [period-luminosity diagram](notebooks/lombscargle_example/). 
 
-Other popular languages for data analysis in the sciences are [R](https://www.r-project.org/) and [Julia](https://julialang.org/). If you are familiar with those, you are welcome to use them! It has been common in the past to use the closed-source Matlab, and we have some scripts available [here](matlab). 
+Other popular languages for data analysis in the sciences are [R](https://www.r-project.org/) and [Julia](https://julialang.org/). If you are familiar with those, you are welcome to use them! It has been common in the past to use the closed-source Matlab, and we have some scripts available [here](matlab). You probably [don't want to use Excel](https://rogerjbarlow.com/2022/02/21/whats-wrong-with-excel/).
