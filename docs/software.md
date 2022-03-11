@@ -40,9 +40,22 @@ conda install -c conda-forge nb_conda_kernels
 
 Then you can work to your heart's content in this conda environment. 
 
+### Python in Windows
+
+Most software development is done in Unix-based operating systems, the main examples being the Linux distributions, and Apple's Mac OSX. For a long time it has been a bit of a hassle to use the latest tools in Windows, but things have got a lot better recently!
+
+One recent development is the [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/install), which runs a Linux distribution (by default Ubuntu, which is my favourite too) inside of Windows. You should be able to do basically everything I suggested on the command line through this. By default, on Windows 10 or later, you should be able to open a PowerShell command line and type
+
+```shell
+wsl --install
+```
+
+and it should install; if this doesn't work, there are more detailed instructions [here](https://docs.microsoft.com/en-us/windows/wsl/install).
+
 ## Using Python
 
 There is a great intro textbook for Python for astronomers, freely available online [here](https://prappleizer.github.io/) by Pasha & Agostino.
+
 
 ## Jupyter Notebooks
 
@@ -52,7 +65,7 @@ Here is a [great tutorial]((https://www.dataquest.io/blog/jupyter-notebook-tutor
 
 If you install Conda like above, you'll be good to go with the terminal command `jupyter notebook`. 
 
-## Google Colab
+### Google Colab
 
 While some Windows users have Conda working very nicely, some users have been having difficulty.
 
