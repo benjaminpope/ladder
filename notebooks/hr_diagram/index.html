@@ -1006,6 +1006,7 @@ all of MD as it is not optimized for dense, information rich UIs.
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h2 id="load-some-data">Load some data<a class="anchor-link" href="#Load-some-data">&#182;</a></h2><p>Let's pick a data directory from files I prepared earlier. These were from an earlier run of the universe-making code and don't belong to any group in this project!</p>
+<p>Here, <code>ddir</code> should be the data directory for the camera where your stars are. The <code>..</code> means the directory above the one you are currently working in - it is important that this path points to where <strong>your</strong> data live, or else the code won't know where to look!</p>
 
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
@@ -1231,6 +1232,8 @@ all of MD as it is not optimized for dense, information rich UIs.
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h2 id="nearby-stars-as-benchmarks">Nearby stars as benchmarks<a class="anchor-link" href="#Nearby-stars-as-benchmarks">&#182;</a></h2><p>We'll have to find out the distance to this cluster by fitting an HR diagram. Let's look at all the nearby stars and see if we can get something nice.</p>
+<p>We are going to make a list of every single <code>points.txt</code> file of stars in every camera.</p>
+<p>We use <code>glob</code> for this, which is a Python package for searching for filenames, and in this <code>*</code> is a 'wildcard' that means match <em>anything</em> here that otherwise fits the format - so this means search for <code>Down</code>, <code>Up</code>, and so forth, and <code>A01</code>, <code>B05</code> etc for the second <code>*</code>.</p>
 
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
@@ -1337,7 +1340,14 @@ all of MD as it is not optimized for dense, information rich UIs.
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="distance-estimation">Distance Estimation<a class="anchor-link" href="#Distance-Estimation">&#182;</a></h2><p>Let's estimate the distance to this cluster. Let's plot them on the same axes:</p>
+<h2 id="distance-estimation">Distance Estimation<a class="anchor-link" href="#Distance-Estimation">&#182;</a></h2><p>Let's estimate the distance to this cluster. Remember the inverse square law - the brightness you see is proportional to</p>
+
+<pre><code>(brightness at distance d1)*(d1**2 / d2 **2)</code></pre>
+<p>What we want to do is <em>standardize</em> everything to how bright it would be at a distance of, for the sake of argument, 1 parsec. (In real research, for no particular reason, people usually use 10 parsecs for absolute magnitudes, but for simplicity we will use 1).</p>
+<p>If we're working in log units, <code>log(1/d**2) = -2*log(d)</code>, so this means that our standardized log flux is</p>
+
+<pre><code>abs_mag = observed_mag + 2*log(dist)</code></pre>
+<p>Now let's plot them on the same axes.</p>
 
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
@@ -1422,7 +1432,7 @@ all of MD as it is not optimized for dense, information rich UIs.
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>So this cluster is much further away! By trial and error, let's find a distance modulus that looks right:</p>
+<p>So this cluster is much further away! By trial and error, let's find a distance modulus that looks right.</p>
 
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
@@ -1493,8 +1503,9 @@ all of MD as it is not optimized for dense, information rich UIs.
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>By trial and error it looks like log10(dist) is about (5.4 to 5.5) - so this cluster is at a distance of 10^(2.2 - 2.25) = 500-560 kpc.</p>
-<p>(I looked it up in the answers and it's 520 kpc - so a pretty decent estimate!)</p>
+<p>By trial and error it looks like this offset is about (5.4 to 5.5).</p>
+<p>This is <code>2*log10(distance)</code> so this cluster is at a distance of 10^(2.7 - 2.75) = 500-560 pc.</p>
+<p>(I looked it up in the answers and it's 520 pc - so a pretty decent estimate!)</p>
 
 </div>
 </div>
